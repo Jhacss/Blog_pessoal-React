@@ -3,7 +3,7 @@ import Usuario from "./Usuario";
 
 export default interface Postagem {
     id: number;
-    tiutulo: string;
+    titulo: string;
     texto: string;
     data: string;
     tema: Tema | null;
